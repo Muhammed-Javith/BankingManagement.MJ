@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+body {
+    font-family: Abel;
+    margin: 0px;
+    background-color: #80ced6;
+}
+.nav {
+    font-family: Abel;
+    background-color:#80ced6;
+    width: 100%;
+    height: 5rem;
+}
+.nav-item, .nav-item1 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #00909E;
+    margin: 1.5rem;
+    text-decoration: none;
+}
+.nav-item{
+    float: left;
+}
+.nav-item1{
+    float: right;
+}
+footer{
+  color: #00909E;
+  text-align:center; 
+    
+}
+.copyright{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url(images/login.jpg);
+
+  min-height: 720px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+  padding-bottom: 16px;
+}
+.container1 {
+  position: absolute;
+  left: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+}
+/* Full-width input fields */
+input[type=text], input[type=password] ,input[type = date]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type = date]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #004080;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.btn:hover {
+  opacity: 1;
+}

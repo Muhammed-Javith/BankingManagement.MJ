@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+body {
+    font-family: Abel;
+    margin: 0px;
+    background-color: #80ced6;
+}
+select, .nav{
+    font-family: Abel;
+}
+.nav {
+    background-color:#80ced6;
+    color: #00909E;
+    width: 100%;
+    height: 5rem;
+}
+.nav-item, .nav-item1 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #00909E;
+    margin: 1.5rem;
+    text-decoration: none;
+}
+.nav-item{
+	float: left;
+}
+.nav-item1{
+	float: right;
+}
+.money1
+{
+  width: 100%;
+  height: 0%;
+}
+.btn{
+  background-color:#990033;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 18px;
+  left: 16px;
+  background-color: #142850;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.top-left {
+  position: absolute;
+  top: 18px;
+  left: 16px;
+  background-color: #142850;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.top-right {
+  position: absolute;
+  top: 18px;
+  right: 16px;
+  background-color: #142850;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.bottom-right {
+  position: absolute;
+  bottom: 18px;
+  right: 16px;
+  background-color: #142850;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #339999;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px; 
+}
+footer{
+  color: #00909E;
+  text-align:center; 
+    
+}
+.footer-link{
+	font-size: 1.25rem;
+    font-weight: bold;
+    margin: 1.5rem;
+    text-decoration: none;
+}
+.copyright{
+    font-size: 1.25rem;
+    font-weight: bold;
+}

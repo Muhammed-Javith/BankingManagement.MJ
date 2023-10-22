@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+body {
+    font-family: Abel;
+    margin: 0px;
+    background-color: #80ced6;
+}
+.nav {
+    font-family: Abel;
+    background-color:#80ced6;
+    width: 100%;
+    height: 5rem;
+}
+.nav-item, .nav-item1 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #00909E;
+    margin: 1.5rem;
+    text-decoration: none;
+}
+.nav-item{
+	float: left;
+}
+.nav-item1{
+	float: right;
+}
+footer{
+  color: #00909E;
+  text-align:center; 
+    
+}
+.copyright{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+/*about css started*/
+.content, .con {
+  max-width: 1080px;
+  margin: auto;
+  background-color: #ffe6ee;
+  text-align: justify;
+  padding :10px 30px 10px 10px;
+}
+.con
+{
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align:center;
+    background-color:#ff80a8;
+}

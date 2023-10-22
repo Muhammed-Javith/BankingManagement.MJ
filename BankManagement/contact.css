@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+body {
+    font-family: Abel;
+    margin: 0px;
+    background-color: #80ced6;
+}
+.nav {
+    font-family: Abel;
+    background-color:#80ced6;
+    width: 100%;
+    height: 5rem;
+}
+.nav-item, .nav-item1 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #00909E;
+    margin: 1.5rem;
+    text-decoration: none;
+}
+.nav-item{
+    float: left;
+}
+.nav-item1{
+    float: right;
+}
+footer{
+  color: #00909E;
+  text-align:center; 
+    
+}
+.copyright{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+form{
+    max-width: 300px;
+    min-width: 250px;
+    margin: 0 auto;
+    padding: 10px 50px;
+    border: 3px solid grey;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.MyPop h2{
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 25px 40px;
+    margin: -10px -50px;
+    border-radius: 10px 10px 0 0;
+}
+.MyPop input[type=text], input[type=email]{
+    width: 82%;
+    padding: 10px;
+    margin-top: 30px;
+    border: 2px solid grey;
+    padding-left: 40px;
+}
+
+#name{
+    background-image: url(images/icon2.png);
+    background-repeat: no-repeat;
+    background-position: 5px 7px;
+}
+
+#email{
+    background-image: url(images/icon5.png);
+    background-repeat: no-repeat;
+    background-position: 5px 7px;
+}
+select
+{
+    background-image: url(images/icon4.png);
+    background-repeat: no-repeat;
+    background-position: 7px 9px;
+    width: 82%;
+    padding: 10px;
+    margin-top: 30px;
+    border: 2px solid grey;
+    padding-left: 40px;
+}
+.MyPop textarea{
+    background-image: url(images/icon3.png);
+    background-repeat: no-repeat;
+    background-position: 5px 7px;
+    width: 82%;
+    height: 90px;
+    padding: 10px;
+    margin-top: 30px;
+    resize: none;
+    border: 2px solid grey;
+    padding-left: 40px;
+    margin-bottom: 30px;
+}
+
+#submit{
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    text-align: center;
+    color: white;
+    background-color:  #004080;
+    padding: 15px 0;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#submit:hover{
+    background-color: #b300b3;
+    color: white;
+}
